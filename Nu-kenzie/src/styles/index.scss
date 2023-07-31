@@ -1,0 +1,146 @@
+@import "./global.scss";
+@import "./buttons.scss";
+@import "./typography.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: var(--font-primary);
+}
+
+header {
+  height: 10px;
+  padding: 30px;
+  background-color: var(--grey-1);
+  box-shadow: 0px 4px 4px var(--grey-2);
+
+  img {
+    width: 114px;
+  }
+}
+
+form {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 90%;
+  padding: 20px;
+  border: 2px solid var(--grey-2);
+  gap: 10px;
+
+  div {
+    margin: 20px;
+    padding: 12px 0px 20px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  p{
+    font-size: 12px;
+    opacity: 0.6;
+    margin-top: -10px;
+  }
+
+  input, select {
+    background-color: var(--grey-1);
+    border: none;
+    padding: 16px 16px 16px 16px;
+    border-radius: 8px;
+    width: 100%;
+
+  }
+  
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+.section-container-one{
+  padding: 20px;
+  width: 90%;
+  margin: 0 auto;
+  border: 2px solid var(--grey-2);
+
+  margin-top: 10px;
+  
+  div{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  
+}
+
+.section-container-two{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 10px;
+  
+  ul{
+    
+    margin-top: 20px;
+  }
+  
+  li{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--grey-2);
+    background-color: var(--grey-1);
+    height: 144px;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 15px;
+    border-radius: 6px 0px 0px 6px ;
+    margin-bottom: 15px;
+    border-left: 3px solid var(--color-secondary);
+  }
+
+}
+.title-3{
+  color: var(--grey-4);
+}
+.title-4{
+  color: var(--grey-1);
+}
+.title-5{
+  color: var(--color-primary);
+}
+@media (min-width: 1000px) {
+      .section-group{
+        margin: 0 auto;
+        width: 70%;
+        gap: 50px;
+        display: flex;
+        flex-direction: row;
+      }
+      form{
+        width: 100%;
+      }
+      .section-container-one{
+        width: 100%;
+      }
+      .section-direction{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      }
+
+      .section-container-two{
+        display: flex;
+        width: 100%;
+     
+      }
+}
