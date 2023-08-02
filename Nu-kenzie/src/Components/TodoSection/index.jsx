@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { Form } from "../Form"
+import { Form } from "../Form";
 import { TodoList } from "../TodoList";
 import { TotalMoney } from "../TotalMoney";
 export const TodoSection = () => {
@@ -13,7 +13,7 @@ export const TodoSection = () => {
     };
   
     const removeNote = (removeId) => {
-      const newNoteList = noteList.filter((note) => note.id !== removeId); // Fix the typo here
+      const newNoteList = noteList.filter((note) => note.id !== removeId);
       setNoteList(newNoteList);
     };
   

@@ -1,4 +1,4 @@
-import NuLogo from '../../assets/Nu Kenzie.png'
+import NuLogo from '../../assets/Nu Kenzie.png';
 export const Header = () => {
     return(
         <header>

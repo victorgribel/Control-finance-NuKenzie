@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import "./styles/index.scss"
 import { Homepage } from './Components/Pages/HomePage'
-function App() {
+const App = () => {
 
   return (
     <>
